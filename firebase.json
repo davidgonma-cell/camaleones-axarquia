@@ -1,15 +1,7 @@
 {
   "hosting": {
     "public": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "ignore": ["firebase.json", "**/.*", ".github/**"],
+    "rewrites": [{"source": "**", "destination": "/index.html"}]
   }
 }
